@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "B+77/3mMOo/FZ0G+R4EzDRUvc90Bq6lLqkBM3EeaNvc=",
+  "Source": "AspnetObservability.API",
+  "BasePath": "_content/AspnetObservability.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

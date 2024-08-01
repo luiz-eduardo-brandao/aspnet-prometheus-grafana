@@ -1,0 +1,11 @@
+version: '1.0'
+services:
+  prometheus:
+    image: prom/prometheus
+    container_name: dev_prometheus_test
+    ports:
+      - "30090:9090"
+    environment:
+      - TZ=Europe/Copenhagen
+    volumes:
+      - ./prom/prometheus.yml:/etc/prometheus/prometheus.yml
