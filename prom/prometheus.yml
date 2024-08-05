@@ -15,8 +15,6 @@ scrape_configs:
   scrape_interval: 15s
   scrape_timeout: 10s
   metrics_path: /metrics
-  scheme: http
   static_configs:
-  - targets:
-    - http://localhost:5021/
-    # - host.docker.internal:5109
+  - targets: 
+    - host.docker.internal:5021
